@@ -55,7 +55,8 @@ Use the Serial Monitor to verify live readings
 Confirm buzzer is properly initialized in code
 
 ###Project Circuit
-<img width="1458" height="722" alt="image" src="https://github.com/user-attachments/assets/16564e83-1bd1-4e3a-9c29-583aa7b47c6e" /
+<img width="1430" height="713" alt="image" src="https://github.com/user-attachments/assets/6068fab5-f41a-4a14-aada-5fea4ce174ab" />
+
 
 ###Code
 //Smart Room Environmental Monitoring and Alert System
