@@ -129,11 +129,16 @@ void loop()
 }
 
 ###How to simulate
+
 Click this link  below in tinkercad
 Click start simulation
 tap serial monitor to track real time temp & light values
 change values on TMP & Photo resistor to see behaviour in the Leds ,and serial monitor values
 https://www.tinkercad.com/things/3Um25PLwObX-smart-room-environmental-monitoring-and-alert-system/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fall&sharecode=D7oV5M2wRA2Ys3xI_zs_FG2s9Zsg_FSJ8XVzYDvP7wI
+
+Watch the video for detailed system design and code walkthrough 
+
+https://youtu.be/suw-NHYzns8
 
 👥 Project Participants
 ASASIRA QUEEN PINKLEN
