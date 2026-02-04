@@ -26,6 +26,7 @@ Light Sensor (A1) ───────┼──> Arduino UNO ──> Red LED (P
                          └──> LCD Display / Serial Monitor
 
 ###How It Works
+
 The Arduino reads temperature and light values every 500 milliseconds.
 Temperature data is converted into degrees Celsius.
 Sensor readings are displayed on the LCD screen and Serial Monitor.
@@ -36,6 +37,7 @@ If light intensity drops below 400, the yellow LED turns ON.
 When conditions return to normal, alerts automatically stop.
 
 ###Key Features
+
 Real-time temperature and light monitoring
 Dual alert system (visual + audible)
 LCD and Serial Monitor output
@@ -43,12 +45,14 @@ Automatic light-based energy control
 Easily adjustable thresholds
 
 ###Customization
+
 Change temperature threshold (default: 35°C)
 Adjust light sensitivity level (default: 400)
 Modify buzzer tones and LED blink rates
 Add more sensors using free analog pins
 
 ###Troubleshooting
+
 Check wiring if sensor values seem incorrect
 Ensure proper sensor power and grounding
 Use the Serial Monitor to verify live readings
@@ -135,5 +139,4 @@ https://www.tinkercad.com/things/3Um25PLwObX-smart-room-environmental-monitoring
 ASASIRA QUEEN PINKLEN
 SENYONJO DISAN
 NAMUGERWA WITTY SHALUAH
-
 LUKODA FAHA
