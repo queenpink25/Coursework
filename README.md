@@ -46,10 +46,10 @@ The code demonstrates:
 Project Circuit
 ===============
 
-<img width="1430" height="713" alt="Smart Room Circuit" src="https://github.com/user-attachments/assets/6068fab5-f41a-4a14-aada-5fea4ce174ab" />
+<img width="1536" height="1024" alt="circuit png" src="https://github.com/user-attachments/assets/93a1e682-f258-4f9f-a878-50a86ef2981d" />
 
 How to simulate
----------------
+===============
 
 Click the link below in Tinkercad:  
 - Click **Start Simulation**  
@@ -60,7 +60,8 @@ Click the link below in Tinkercad:
 
 
 Project Participants
--------------------
+====================
+
 
 👤 ASASIRA QUEEN PINKLEN  
 👤 SENYONJO DISAN  
