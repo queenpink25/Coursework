@@ -1,4 +1,8 @@
 # Coursework
+
+live Demo
+https://youtu.be/suw-NHYzns8
+
 ###Project Description
 
 The Smart Room Environmental Monitoring and Alert System is an Arduino-based solution that monitors temperature and light intensity in real time. It provides visual and audible alerts whenever environmental conditions exceed predefined thresholds, ensuring a safe, comfortable, and energy-efficient indoor environment.
