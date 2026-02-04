@@ -1,70 +1,46 @@
 # Coursework
 
-live Demo
-https://youtu.be/suw-NHYzns8
+---
 
-###Project Description
+##  Video Walkthrough
 
-The Smart Room Environmental Monitoring and Alert System is an Arduino-based solution that monitors temperature and light intensity in real time. It provides visual and audible alerts whenever environmental conditions exceed predefined thresholds, ensuring a safe, comfortable, and energy-efficient indoor environment.
+Watch the video for a detailed explanation of the **system design, architecture, and Arduino code walkthrough**.
 
-###System Architecture
+🔗 https://youtu.be/suw-NHYzns8
 
-The system is built around an Arduino UNO, which collects data from sensors, processes it, and triggers alerts based on set conditions.
-Components and Connections
-Arduino UNO – Main controller
-Temperature Sensor (TMP36 / LM35) → Analog Pin A0
-Light Sensor (Photoresistor) → Analog Pin A1
-Red LED → Digital Pin 13 (High temperature alert)
-Yellow LED → Digital Pin 12 (Low light indicator)
-Piezo Buzzer → Digital Pin 8 (Audible alarm)
-LCD Display – Shows real-time readings
-Serial Monitor – Displays sensor data for debugging and logging
+---
 
-###Architecture Flow 
+##  System Overview
+This Smart Room Environmental Monitoring and Alert System monitors **temperature and light intensity** in real time using sensors connected to an Arduino UNO.
 
-Temperature Sensor (A0) ─┐
-                         │
-Light Sensor (A1) ───────┼──> Arduino UNO ──> Red LED (Pin 13)
-                         │                  Yellow LED (Pin 12)
-                         │                  Piezo Buzzer (Pin 8)
-                         └──> LCD Display / Serial Monitor
+---
 
-###How It Works
+##  System Architecture
+- **Input:** Temperature sensor (A0), Light sensor / LDR (A1)  
+- **Processing:** Arduino UNO  
+- **Output:**  
+  - Red LED → Temperature alert  
+  - Yellow LED → Light status  
+  - Piezo buzzer → Audio alert  
 
-The Arduino reads temperature and light values every 500 milliseconds.
-Temperature data is converted into degrees Celsius.
-Sensor readings are displayed on the LCD screen and Serial Monitor.
-If temperature rises above 35°C, the system activates:
-Flashing red LED
-Alternating high-low buzzer sound
-If light intensity drops below 400, the yellow LED turns ON.
-When conditions return to normal, alerts automatically stop.
+---
 
-###Key Features
+##  Code Walkthrough
+The code demonstrates:
+- Analog sensor data acquisition  
+- Conversion of sensor values to real-world units  
+- Conditional logic for alerts  
+- Real-time monitoring via the Serial Monitor  
 
-Real-time temperature and light monitoring
+---
 
-Dual alert system (visual + audible)
+##  Applications
+- Smart rooms  
+- Environmental monitoring  
+- Embedded systems learning  
+- Arduino & IoT fundamentals  
 
-LCD and Serial Monitor output
-
-Automatic light-based energy control
-
-Easily adjustable thresholds
-
-###Customization
-
-Change temperature threshold (default: 35°C)
-Adjust light sensitivity level (default: 400)
-Modify buzzer tones and LED blink rates
-Add more sensors using free analog pins
-
-###Troubleshooting
-
-Check wiring if sensor values seem incorrect
-Ensure proper sensor power and grounding
-Use the Serial Monitor to verify live readings
-Confirm buzzer is properly initialized in code
+---
 
 ###Project Circuit
 <img width="1430" height="713" alt="image" src="https://github.com/user-attachments/assets/6068fab5-f41a-4a14-aada-5fea4ce174ab" />
