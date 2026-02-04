@@ -43,9 +43,13 @@ When conditions return to normal, alerts automatically stop.
 ###Key Features
 
 Real-time temperature and light monitoring
+
 Dual alert system (visual + audible)
+
 LCD and Serial Monitor output
+
 Automatic light-based energy control
+
 Easily adjustable thresholds
 
 ###Customization
