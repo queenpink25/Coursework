@@ -42,9 +42,6 @@ The code demonstrates:
 
 ---
 
-###Project Circuit
-<img width="1430" height="713" alt="image" src="https://github.com/user-attachments/assets/6068fab5-f41a-4a14-aada-5fea4ce174ab" />
-
 
 Project Circuit
 ===============
@@ -118,6 +115,7 @@ void loop()
   delay(500); 
 }
 */
+
 
 How to simulate
 ---------------
