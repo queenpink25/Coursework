@@ -48,9 +48,29 @@ Project Circuit
 
 <img width="1430" height="713" alt="Smart Room Circuit" src="https://github.com/user-attachments/assets/6068fab5-f41a-4a14-aada-5fea4ce174ab" />
 
+How to simulate
+---------------
+
+Click the link below in Tinkercad:  
+- Click **Start Simulation**  
+- Open the **Serial Monitor** to track real-time temperature & light values  
+- Adjust the TMP & Photoresistor values to see the LED behavior and Serial Monitor outputs  
+
+[Smart Room Environmental Monitoring and Alert System - Tinkercad](https://www.tinkercad.com/things/3Um25PLwObX-smart-room-environmental-monitoring-and-alert-system/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fall&sharecode=D7oV5M2wRA2Ys3xI_zs_FG2s9Zsg_FSJ8XVzYDvP7wI)
+
+
+Project Participants
+-------------------
+
+👤 ASASIRA QUEEN PINKLEN  
+👤 SENYONJO DISAN  
+👤 NAMUGERWA WITTY  
+👤 LUKODA  FAHAD
+
+
 Code // Smart Room Environmental Monitoring and Alert System
 -----------------------------------------------------------
-
+```cpp
 /*
 // pin initializing
 int red = 13;          
@@ -115,24 +135,7 @@ void loop()
 }
 */
 
-How to simulate
----------------
 
-Click the link below in Tinkercad:  
-- Click **Start Simulation**  
-- Open the **Serial Monitor** to track real-time temperature & light values  
-- Adjust the TMP & Photoresistor values to see the LED behavior and Serial Monitor outputs  
-
-[Smart Room Environmental Monitoring and Alert System - Tinkercad](https://www.tinkercad.com/things/3Um25PLwObX-smart-room-environmental-monitoring-and-alert-system/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fall&sharecode=D7oV5M2wRA2Ys3xI_zs_FG2s9Zsg_FSJ8XVzYDvP7wI)
-
-
-Project Participants
--------------------
-
-👤 ASASIRA QUEEN PINKLEN  
-👤 SENYONJO DISAN  
-👤 NAMUGERWA WITTY  
-👤 LUKODA  FAHAD
 
 
 
